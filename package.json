@@ -1,0 +1,35 @@
+{
+  "name": "rollup-plugin-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "rollup -c",
+    "start": "cross-env NODE_ENV=production rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "cross-env": "^7.0.3",
+    "rollup": "^4.19.1",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^1.1.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-alias": "^5.1.0",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "node-fetch": "^3.3.2",
+    "passport": "^0.7.0",
+    "passport-openidconnect": "^0.1.2"
+  }
+}

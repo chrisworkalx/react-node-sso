@@ -1,0 +1,1 @@
+{"version":3,"file":"dynamicModule-Be46QuUC.js","sources":["../src/dynamicModule.js"],"sourcesContent":["export function dynamicFunction() {\n  console.log(\"Dynamic module loaded\");\n}\n"],"names":["dynamicFunction","console","log"],"mappings":"QAAO,SAASA,IACdC,QAAQC,IAAI,wBACd"}
